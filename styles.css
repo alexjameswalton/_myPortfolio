@@ -88,7 +88,7 @@ h1 {
 #picturesWithBottomCaptions article {
     text-align: center;
     width: 25%;
-    min-width: 25rem;
+    min-width: 20rem;
     margin: 0.5rem;
     height: 20rem;
     background-color:black;
