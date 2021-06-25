@@ -133,24 +133,43 @@ h2 {
 }
 
 .storyBox {
-    border-width: 0.01rem;
+    /*border-width: 0.01rem;
     border-style: solid;
-    border-color: black;
+    border-color: black;*/
     width: 200px;
-    height: 200px;
     padding: 0.5rem;
-    margin: 0.1rem;
+    margin: 1rem;
     text-align: left;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .storyBox p {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.storyBox strong {
+    font-size: 0.8rem;
+    /*color: #e4610f;*/
 }
 
 .storyBox button {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0.1rem 0;
+    background: black;
+    color: white;
+    transition-delay: 1s;
 }
+
+/*button:hover {
+    background: #88B04B;
+}*/
 
 #picturesWithBottomCaptions {
     padding-bottom: 6rem;
@@ -211,6 +230,13 @@ h2 {
     color: black;
     text-align: center;
     padding-bottom: 6rem;
+}
+
+.logos {
+    height: 6rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0.5rem;
 }
 
 footer p {
