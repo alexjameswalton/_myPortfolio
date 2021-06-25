@@ -43,8 +43,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 480px) {
-    a.fa {
-      display: none;
+    a {
+      margin: 0 0;
+      padding: 0.5rem 0;
     }
 }
 
@@ -132,12 +133,15 @@ h2 {
     justify-content: center;
 }
 
-.storyBox {
+.storyBox p {
     border-width: 0.1rem;
     border-style: solid;
     border-color: black;
     width: 200px;
     height: 200px;
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 0.75rem;
 }
 
 #picturesWithBottomCaptions {
