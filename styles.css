@@ -132,15 +132,24 @@ h2 {
     justify-content: center;
 }
 
-.storyBox p {
-    border-width: 0.1rem;
+.storyBox {
+    border-width: 0.01rem;
     border-style: solid;
     border-color: black;
     width: 200px;
     height: 200px;
-    text-align: left;
     padding: 0.5rem;
+    margin: 0.1rem;
+    text-align: left;
+}
+
+.storyBox p {
     font-size: 0.75rem;
+}
+
+.storyBox button {
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 #picturesWithBottomCaptions {
