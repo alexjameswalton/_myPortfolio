@@ -66,12 +66,14 @@ button4C.addEventListener('mousedown', colorChange4);
 let button5A = document.getElementById('5A');
 let button5B = document.getElementById('5B');
 let button5C = document.getElementById('5C');
+let explanationPara = document.getElementById('fullStackExplanation')
 
 function colorChange5(event){
     button5A.style.backgroundColor = 'red';    
     button5B.style.backgroundColor = '#88B04B';
     button5C.style.backgroundColor = 'red';
     event.target.style.transitionDelay = "0s";
+    explanationPara.style.display = 'block';
 }
 
 button5A.addEventListener('mousedown', colorChange5);
@@ -97,6 +99,7 @@ function myColorReset() {
     button5A.style.backgroundColor = 'black';    
     button5B.style.backgroundColor = 'black';
     button5C.style.backgroundColor = 'black';
+    explanationPara.style.display = 'none';
 
     button1A.style.transitionDelay = "0s";
     button1B.style.transitionDelay = "0s";
