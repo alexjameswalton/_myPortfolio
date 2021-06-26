@@ -15,9 +15,9 @@
     <header>
         <nav id="navWordings">
             <a href="index.html" class="fa">&#xf015</a>
-            <a>myStory</a>
-            <a href="myProjects.html">myProjects</a>
-            <a>mySkills</a>
+            <a href="#myStoryNavPoint">myStory</a>
+            <a href="#myProjectsNavPoint">myProjects</a>
+            <a href="#mySkillsNavPoint">mySkills</a>
             <a href="https://www.linkedin.com/in/alex-walton-230b5622/" class="fa fa-linkedin">
                 <i class="icon-linkedin"></i>
             </a>
@@ -33,6 +33,7 @@
         <section id="megaHeader">
             <h1>Hi. I'm Alex.</h1>
             <p>#daddy &nbsp #developer &nbsp #disruptor</p>
+            <p id="myStoryNavPoint"></p>
         </section>
 
         <section id="myStory">
@@ -40,63 +41,65 @@
                 myStory
                 <!-- <i class="fa fa-arrow-down"></i> -->
             </h2>
+            <i class="fa fa-refresh" aria-hidden="true" id="storyReset"></i>
             <article class="storyContainer">
                 <div class="storyBox">
                     <p><strong>Q1.</strong> I studied Maths, French and Geography at A-Level; followed by Geography at Cambridge.  What on earth was my first job?</p>
                     <p>
                         <br>
-                        <button id="1A" type="button">Weatherman</button>
+                        <button id="1A" type="button" class="storyButton">Weatherman</button>
                         <br>
-                        <button id="1B">Transport Modeller</button>
+                        <button id="1B" type="button" class="storyButton">Transport Modeller</button>
                         <br>
-                        <button id="1C">Spy</button>
+                        <button id="1C" type="button" class="storyButton">Spy</button>
                     </p>
                 </div>
                 <div class="storyBox">
                     <p><strong>Q2.</strong> I was heavily involved in the London Olympics.  But in what capacity?</p>
                     <p>
                         <br>
-                        <button id="2A">Shot Put Hero</button>
+                        <button id="2A" type="button" class="storyButton">Shot Put Hero</button>
                         <br>
-                        <button id="2B">Mascot</button>
+                        <button id="2B" type="button" class="storyButton">Mascot</button>
                         <br>
-                        <button id="2C">Predictive Analytics</button>
+                        <button id="2C" type="button" class="storyButton">Predictive Analytics</button>
                     </p>               
                 </div>
                 <div class="storyBox">
                     <p><strong>Q3.</strong> Take a risk and move abroad for growth opportunities, or stay safe with my home comforts?</p>
                     <p>    
                         <br>
-                        <button id="3A">India here I come</button>
+                        <button id="3A" type="button" class="storyButton">India here I come</button>
                         <br>
-                        <button id="3B">Britain, Britain, Britain</button>
+                        <button id="3B" type="button" class="storyButton">Britain, Britain, Britain</button>
                         <br>
-                        <button id="3C">Dubai, show me the money</button>                    
+                        <button id="3C" type="button" class="storyButton">Dubai, show me the money</button>                    
                     </p>
                 </div>
                 <div class="storyBox">
                     <p><strong>Q4.</strong> I now manage a group of 250 staff from civil, environmental and technology (analytics, software) backgrounds.  What next?</p>
                     <p>
                         <br>
-                        <button id="4A">Stay still, I'm tired</button>
+                        <button id="4A" type="button" class="storyButton">Stay still, I'm tired</button>
                         <br>
-                        <button id="4B">World is changing, keep learning</button>
+                        <button id="4B" type="button" class="storyButton">World is changing, keep learning</button>
                         <br>
-                        <button id="4C">Feet up, early retirement</button>   
+                        <button id="4C" type="button" class="storyButton">Feet up, early retirement</button>   
                     </p>                 
                 </div>
                 <div class="storyBox">
                     <p><strong>Q5.</strong> So where do you go from here?</p>
                     <p>
                         <br>
-                        <button id="5A">Dancer</button>
+                        <button id="5A" type="button" class="storyButton">Dancer</button>
                         <br>
-                        <button id="5B">Full Stack Engineer</button>
+                        <button id="5B" type="button" class="storyButton">Full Stack Engineer</button>
                         <br>
-                        <button id="5C">King</button>                    
+                        <button id="5C" type="button" class="storyButton">King</button>                    
                     </p>
                 </div>
             </article>
+            <p id="myProjectsNavPoint"></p>
         </section>
 
         <section id="picturesWithBottomCaptions">
@@ -109,21 +112,22 @@
                         Video not supported
                     </iframe>
                     <h3>FieldNow &#174</h3>        
-                    <p>FieldNow</p>
+                    <p>My team in India incorporates the perfect blend of Environmental Consulting and Technology skills.  By bringing these together under one roof, we have built apps which automate work at a global scale and empower Arcadians with data-driven insight on Environmental Remediation richer than anyone else in the market. Our Remediation <span id="arcadisOrange">Data Lake</span>, co-created with one of the leading O&G multi-nationals, is an industry first.</p>
                 </article>
                 <article>
                     <iframe src="https://player.vimeo.com/video/253962422?title=0&byline=0&portrait=0" width="320" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                     <h3>Data Analytics @Arcadis</h3>  
-                    <p>Arcadis GEN</p>
+                    <p>As the Civil and Environmental Engineering sectors digitize, the volume / velocity / variety of data is growing exponentially.  At Arcadis, we have responded to this through refocusing our business towards Data Analytics.  Since 2018 it has been my responsibility to build an offshore capability centre in India (now 70+ headcount) to make this possible.  This includes the Indian-arm of our new digital business <span id="genPurple">Arcadis GEN</span>.</p>
                 </article>
                 <article>
                     <iframe id="portfolioInsightsVid" src="https://www.youtube.com/embed/5ohBt2UkgVo" width="320px" height="240px" controls>
                         Video not supported
                     </iframe> 
                     <h3>Portfolio Insights</h3>       
-                    <p>Portfolio Insights</p>
+                    <p>Arcadis has acted as the client Programme Manager (PgM) on the world's most complex and prestigious projects, for example the world's tallest building Burj Khalifa. My team is disrupting this space by <span id="arcadisOrange">productizing PgM services</span>; automating traditional workflows, empowering our clients with data anytime-anywhere and creating an industry-leading CX.</p>
                 </article>
             </div>
+            <p id="mySkillsNavPoint"></p>
         </section>
 
         <section id="mySkills">
@@ -137,6 +141,12 @@
                 <img class="logos" src="images/azureSqlLogo.jpg" alt="React J S Logo"/>
                 <img class="logos" src="images/powerBiLogo.png" alt="React J S Logo"/>
             </div>
+            <article>
+                <h3>inTheMedia</h3>       
+                <p><a href="https://www.youtube.com/watch?v=ORHLfgxs21c">Recruitment Drive @ INSOFE</a></p>
+                <p><a href="https://citytoday.media/2020/02/29/insofe-india-and-case-western-reserve-university-usa-announce-the-launch-of-a-1-of-its-kind-ms-in-core-engineering-disciplines-and-data-science/">INSOFE Cape Western Partnership</a></p>
+                <p><a href="https://vimeo.com/396964497">Code Orange, a Hackathon-Inspired Event in LA</a></p>
+            </article>
         </section>
 
     </main>

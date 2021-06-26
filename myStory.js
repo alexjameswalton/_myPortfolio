@@ -77,3 +77,42 @@ function colorChange5(event){
 button5A.addEventListener('mousedown', colorChange5);
 button5B.addEventListener('mousedown', colorChange5);
 button5C.addEventListener('mousedown', colorChange5);
+
+//reset
+let resetButton = document.getElementById('storyReset');
+
+function myColorReset() {
+    button1A.style.backgroundColor = 'black';
+    button1B.style.backgroundColor = 'black';
+    button1C.style.backgroundColor = 'black';
+    button2A.style.backgroundColor = 'black';    
+    button2B.style.backgroundColor = 'black';
+    button2C.style.backgroundColor = 'black';
+    button3A.style.backgroundColor = 'black';    
+    button3B.style.backgroundColor = 'black';
+    button3C.style.backgroundColor = 'black';
+    button4A.style.backgroundColor = 'black';    
+    button4B.style.backgroundColor = 'black';
+    button4C.style.backgroundColor = 'black';
+    button5A.style.backgroundColor = 'black';    
+    button5B.style.backgroundColor = 'black';
+    button5C.style.backgroundColor = 'black';
+
+    button1A.style.transitionDelay = "0s";
+    button1B.style.transitionDelay = "0s";
+    button1C.style.transitionDelay = "0s";
+    button2A.style.transitionDelay = "0s";
+    button2B.style.transitionDelay = "0s";
+    button2C.style.transitionDelay = "0s";
+    button3A.style.transitionDelay = "0s";
+    button3B.style.transitionDelay = "0s";
+    button3C.style.transitionDelay = "0s";
+    button4A.style.transitionDelay = "0s";
+    button4B.style.transitionDelay = "0s";
+    button4C.style.transitionDelay = "0s";
+    button5A.style.transitionDelay = "0s";
+    button5B.style.transitionDelay = "0s";
+    button5C.style.transitionDelay = "0s";
+}
+
+resetButton.addEventListener('mousedown', myColorReset);

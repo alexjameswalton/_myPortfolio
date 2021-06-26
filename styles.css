@@ -93,7 +93,7 @@ h1 {
 #megaHeader p {
     text-align: center;
     font-size: 0.75rem;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
 }
 
 #myStory {
@@ -118,6 +118,20 @@ h2 {
     margin-bottom: 1rem;
 }
 
+#myStory h2 {
+    margin-bottom: 0;
+}
+
+#myStory i {
+    font-size: 0.75rem;
+    background-color: white;
+    color: black;
+}
+
+#myStory i:hover {
+    color: #e4610f;
+}
+
 .black {
     color: black;
     text-shadow: -1px 1px 2px white,
@@ -136,14 +150,15 @@ h2 {
     /*border-width: 0.01rem;
     border-style: solid;
     border-color: black;*/
-    width: 200px;
-    padding: 0.5rem;
+    width: 220px;
+    padding: 0.75rem;
     margin: 1rem;
     text-align: left;
     display: flex;
     align-content: space-between;
     flex-wrap: wrap;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1.2rem;
 }
 
 .storyBox p {
@@ -165,20 +180,18 @@ h2 {
     background: black;
     color: white;
     transition-delay: 1s;
+    padding: 0.2rem;
+    border-radius: 1rem;
 }
 
-/*button:hover {
-    background: #88B04B;
-}*/
-
 #picturesWithBottomCaptions {
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
 }
 
 #picturesWithBottomCaptionsContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -187,24 +200,23 @@ h2 {
     width: 25%;
     min-width: 20rem;
     margin: 0.5rem;
-    height: 20rem;
     background-color:black;
     padding: 1.5rem;
     border-radius: 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    animation: 2s ease-out 0s 1 slideInFromLeft;
+    /*animation: 2s ease-out 0s 1 slideInFromLeft;*/
 } 
 
-@keyframes slideInFromLeft {
+/*@keyframes slideInFromLeft {
     0% {
-      /*transform: translateY(100%);*/
+      transform: translateY(100%);
       transform: scale(0%);
     }
     100% {
-      /*transform: translateX(0);*/
+      transform: translateX(0);
       transform: scale(100%);
     }
-  }
+  }*/
 
 #picturesWithBottomCaptions img {
     max-width: 100%;
@@ -225,11 +237,21 @@ h2 {
     width: 100%;
 } 
 
+#genPurple {
+    color: #87189d;
+    font-weight: bold;
+}
+
+#arcadisOrange {
+    color: #e4610f;
+    font-weight: bold;
+}
+
 #mySkills {
     background-color: white;
     color: black;
     text-align: center;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 .logos {
@@ -237,6 +259,28 @@ h2 {
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 0.5rem;
+}
+
+#mySkills h3 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-top: 4rem;
+}
+
+#mySkills p {
+    padding: 0.1rem;
+}
+
+#mySkills a {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding: 0rem;
+    text-decoration: underline;
+}
+
+#mySkills a:hover {
+    color: #e4610f;
 }
 
 footer p {
